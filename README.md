@@ -21,8 +21,11 @@ _Note: This repository contains a legacy version of the front-end application. C
 The following video showcases the app's main features and functionality.
 
 <video height="500" controls>
-  <source src="assets/walkthrough.mp4" type="video/mp4">
+  <source src=https://github.com/user-attachments/assets/0e825d8d-2afe-48bc-9b31-1d047f1a1ba3" type="video/mp4">
 </video>
+
+
+https://github.com/user-attachments/assets/0e825d8d-2afe-48bc-9b31-1d047f1a1ba3
 
 ## Technologies Used
 
