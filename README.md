@@ -16,3 +16,23 @@ Key Features:
 Whether you're looking to lose weight, gain muscle, or simply maintain a balanced diet, Kalio provides the tools and insights you need to achieve your nutritional goals with ease and accuracy.
 
 _Note: This repository contains a legacy version of the front-end application. Certain identifiers have been removed, which means some components are missing and the application is not fully executable. The official application can be downloaded from the [App Store](https://apps.apple.com/es/app/kalio-metric-calorie-counter/id6736513779?l=en-GB)._
+
+## App Walkthrough
+The following video showcases the app's main features and functionality.
+
+<video height="500" controls>
+  <source src="assets/walkthrough.mp4" type="video/mp4">
+</video>
+
+## Technologies Used
+
+The project is built using the following technologies:
+
+### Front-end:
+- **React Native**: A JavaScript framework for building mobile applications.
+- **Expo**: A framework for building React Native applications.
+- **Typescript**: A typed superset of JavaScript that compiles to plain JavaScript.
+
+### Back-end:
+- **Express**: A minimal and flexible Node.js web application framework.
+- **OpenAI**: An API for natural language processing.
