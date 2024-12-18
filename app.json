@@ -1,0 +1,90 @@
+{
+  "expo": {
+    "name": "Kalio",
+    "slug": "calio",
+    "version": "2024.11",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#2ecc71"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "buildNumber": "32",
+      "infoPlist": {
+        "NSCameraUsageDescription": "This app needs access to your camera to allow you take photos of your food and analyze them.",
+        "NSUserNotificationUsageDescription": "This app needs access to notifications to keep you updated with important information.",
+        "NSPhotoLibraryUsageDescription": "This app needs access to your photo library to allow you to select and upload food images for calorie tracking."
+      },
+      "entitlements": {
+        "aps-environment": "development"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "permissions": [
+        "android.permission.RECORD_AUDIO",
+        "com.google.android.gms.permission.AD_ID"
+      ],
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "react-native-video",
+        {
+          "enableNotificationControls": false,
+          "androidExtensions": {
+            "useExoplayerRtsp": false,
+            "useExoplayerSmoothStreaming": false,
+            "useExoplayerHls": false,
+            "useExoplayerDash": false
+          }
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app accesses your photos to let you share them with your friends."
+        }
+      ],
+      "expo-asset",
+      [
+        "react-native-appsflyer",
+        {}
+      ],
+      "expo-localization",
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "This identifier will be used to track how users are using our app so that we can improve it."
+        }
+      ],
+      [
+        "@sentry/react-native/expo",
+        {
+          "url": "https://sentry.io/",
+          "organization": "rubitec",
+          "project": "caloriesai"
+        }
+      ],
+      [
+        "expo-updates",
+        {
+          "username": "rubitec"
+        }
+      ]
+    ],
+    "owner": "rubitec",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+  }
+}

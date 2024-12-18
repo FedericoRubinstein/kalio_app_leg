@@ -1,0 +1,142 @@
+diff --git a/node_modules/react-native-rapi-ui/components/TopNav/TopNav.tsx b/node_modules/react-native-rapi-ui/components/TopNav/TopNav.tsx
+index e61aa58..b09764b 100644
+--- a/node_modules/react-native-rapi-ui/components/TopNav/TopNav.tsx
++++ b/node_modules/react-native-rapi-ui/components/TopNav/TopNav.tsx
+@@ -5,6 +5,7 @@ import {
+   View,
+   ViewProps,
+   TouchableOpacity,
++  Dimensions,
+ } from "react-native";
+ import { component } from "../../constants/colors";
+ import { useTheme } from "../../provider/ThemeProvider";
+@@ -68,7 +69,7 @@ const TopNav: React.FC<Props> = ({
+         <View
+           style={{
+             flex: 1,
+-            paddingHorizontal: 20,
++            paddingHorizontal: Dimensions.get("window").width > 375 ? 20 : 12,
+             alignItems: "flex-start",
+             justifyContent: "center",
+           }}
+@@ -93,7 +94,7 @@ const TopNav: React.FC<Props> = ({
+         <View
+           style={{
+             flex: 1,
+-            paddingHorizontal: 20,
++            paddingHorizontal:  Dimensions.get("window").width > 375 ? 20 : 12,
+             alignItems: "center",
+             justifyContent: "center",
+           }}
+@@ -117,7 +118,7 @@ const TopNav: React.FC<Props> = ({
+         <View
+           style={{
+             flex: 1,
+-            paddingHorizontal: 20,
++            paddingHorizontal:  Dimensions.get("window").width > 375 ? 20 : 12,
+             alignItems: "flex-end",
+             justifyContent: "center",
+           }}
+diff --git a/node_modules/react-native-rapi-ui/constants/theme.json b/node_modules/react-native-rapi-ui/constants/theme.json
+index 67f5ad8..4c13cf8 100644
+--- a/node_modules/react-native-rapi-ui/constants/theme.json
++++ b/node_modules/react-native-rapi-ui/constants/theme.json
+@@ -1,38 +1,38 @@
+ {
+-	"primary": "#3366FF",
+-	"primary100": "#D6E4FF",
+-	"primary200": "#ADC8FF",
+-	"primary300": "#84A9FF",
+-	"primary400": "#6690FF",
+-	"primary500": "#3366FF",
+-	"primary600": "#254EDB",
+-	"primary700": "#1939B7",
+-	"primary800": "#102693",
+-	"primary900": "#091A7A",
+-	"primaryTransparent": "rgba(51, 102, 255, 0.4)",
+-	"primaryTransparent100": "rgba(51, 102, 255, 0.08)",
+-	"primaryTransparent200": "rgba(51, 102, 255, 0.16)",
+-	"primaryTransparent300": "rgba(51, 102, 255, 0.24)",
+-	"primaryTransparent400": "rgba(51, 102, 255, 0.32)",
+-	"primaryTransparent500": "rgba(51, 102, 255, 0.4)",
+-	"primaryTransparent600": "rgba(51, 102, 255, 0.48)",
+-	"success": "#ABE00D",
+-	"success100": "#F6FDCD",
+-	"success200": "#EBFB9C",
+-	"success300": "#DAF56A",
+-	"success400": "#C6EC45",
+-	"success500": "#ABE00D",
+-	"success600": "#8DC009",
+-	"success700": "#72A106",
+-	"success800": "#588104",
+-	"success900": "#466B02",
+-	"successTransparent": "rgba(171, 224, 13, 0.4)",
+-	"successTransparent100": "rgba(171, 224, 13, 0.08)",
+-	"successTransparent200": "rgba(171, 224, 13, 0.16)",
+-	"successTransparent300": "rgba(171, 224, 13, 0.24)",
+-	"successTransparent400": "rgba(171, 224, 13, 0.32)",
+-	"successTransparent500": "rgba(171, 224, 13, 0.4)",
+-	"successTransparent600": "rgba(171, 224, 13, 0.48)",
++	"primary": "#3498db",
++	"primary100": "#E9F5FE",
++	"primary200": "#D3EBFD",
++	"primary300": "#BDE1FC",
++	"primary400": "#A7D7FB",
++	"primary500": "#3498db",
++	"primary600": "#2980b9",
++	"primary700": "#1f6897",
++	"primary800": "#155075",
++	"primary900": "#0b3853",
++	"primaryTransparent": "rgba(52, 152, 219, 0.4)",
++	"primaryTransparent100": "rgba(52, 152, 219, 0.08)",
++	"primaryTransparent200": "rgba(52, 152, 219, 0.16)",
++	"primaryTransparent300": "rgba(52, 152, 219, 0.24)",
++	"primaryTransparent400": "rgba(52, 152, 219, 0.32)",
++	"primaryTransparent500": "rgba(52, 152, 219, 0.4)",
++	"primaryTransparent600": "rgba(52, 152, 219, 0.48)",
++	"success": "#2ecc71",
++	"success100": "#E8F8F0",
++	"success200": "#D1F2E1",
++	"success300": "#BAEDD2",
++	"success400": "#A3E7C3",
++	"success500": "#2ecc71",
++	"success600": "#27ae60",
++	"success700": "#208e4e",
++	"success800": "#196f3d",
++	"success900": "#124f2c",
++	"successTransparent": "rgba(46, 204, 113, 0.4)",
++	"successTransparent100": "rgba(46, 204, 113, 0.08)",
++	"successTransparent200": "rgba(46, 204, 113, 0.16)",
++	"successTransparent300": "rgba(46, 204, 113, 0.24)",
++	"successTransparent400": "rgba(46, 204, 113, 0.32)",
++	"successTransparent500": "rgba(46, 204, 113, 0.4)",
++	"successTransparent600": "rgba(46, 204, 113, 0.48)",
+ 	"info": "#3BD4F7",
+ 	"info100": "#D7FEFA",
+ 	"info200": "#B0FEFB",
+@@ -90,17 +90,20 @@
+ 	"black300": "#1a1a1a",
+ 	"black400": "#0f0f0f",
+ 	"black500": "#050505",
+-	"gray": "#6c6c6c",
++	"gray": "#95a5a6",
+ 	"gray100": "#bababa",
+ 	"gray200": "#a7a7a7",
+ 	"gray300": "#939393",
+ 	"gray400": "#808080",
+-	"gray500": "#6c6c6c",
++	"gray500": "#95a5a6",
+ 	"white": "#FFFFFF",
+ 	"white100": "#f7f7f7",
+ 	"white200": "#e6e6e6",
+-	"dark" : "#191921",
++	"dark": "#2c3e50",
+ 	"dark100": "#383b4d",
+-	"dark200": "#262834"
+-
++	"dark200": "#262834",
++	"background": "#ecf0f1",
++	"blue": "#3498db",
++	"green": "#2ecc71",
++	"lightBlue": "#87CEEB"
+ }

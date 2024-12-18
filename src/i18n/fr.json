@@ -1,0 +1,247 @@
+{
+  "common": {
+    "continue": "Continuer",
+    "done": "Terminé",
+    "calories": "calories",
+    "good_morning": "Bonjour",
+    "good_afternoon": "Bon après-midi",
+    "good_evening": "Bonsoir",
+    "add": "Ajouter",
+    "delete": "Supprimer",
+    "Carbs": "Glucides",
+    "Carbohydrates": "Glucides",
+    "Calories": "Calories",
+    "Portion_size": "Taille de la portion",
+    "Protein": "Protéines",
+    "Fat": "Lipides",
+    "weight": "Poids",
+    "date": "Date",
+    "cancel": "Annuler",
+    "today": "Aujourd'hui"
+  },
+  "timeframes": {
+    "week": "Semaine",
+    "month": "Mois",
+    "year": "Année",
+    "all": "Tout"
+  },
+  "genre": {
+    "male": "Homme",
+    "female": "Femme",
+    "other": "Autre"
+  },
+  "goal": {
+    "lose_weight": "Perdre du poids",
+    "gain_weight": "Prendre du poids",
+    "maintain_weight": "Maintenir mon poids",
+    "improve_health": "Améliorer ma santé",
+    "build_muscle": "Développer mes muscles",
+    "manage_stress": "Gérer le stress",
+    "improve_sleep": "Améliorer mon sommeil",
+    "change_diet": "Changer mon alimentation"
+  },
+  "obstacles": {
+    "time": "Pas le temps",
+    "hard": "Régime difficile à suivre",
+    "food": "Je n'aimais pas la nourriture",
+    "support": "Je n'ai pas trouvé de soutien",
+    "motivation": "Je n'ai pas trouvé de motivation",
+    "progress": "Je n'ai pas vu de progrès",
+    "cravings": "J'avais des envies",
+    "hunger": "J'avais faim",
+    "cost": "C'était trop cher",
+    "first_time": "C'était ma première fois",
+    "other": "Autre"
+  },
+  "past_attempts": {
+    "calorie_counting": "Comptage des calories",
+    "keto_diet": "Régime cétogène",
+    "intermittent_fasting": "Jeûne intermittent",
+    "low_carb_diet": "Régime pauvre en glucides",
+    "vegetarian_vegan_diet": "Régime végétarien/végétalien",
+    "increased_physical_activity": "Activité physique accrue",
+    "weight_loss_supplements": "Compléments minceur",
+    "meal_replacement_shakes": "Substituts de repas"
+  },
+  "activity_level": {
+    "sedentary": "Sédentaire",
+    "sedentary_description": "Peu ou pas d'exercice, travail de bureau",
+    "lightly_active": "Légèrement actif",
+    "lightly_active_description": "Exercice léger 1-3 jours/semaine",
+    "moderately_active": "Modérément actif",
+    "moderately_active_description": "Exercice modéré 3-5 jours/semaine",
+    "very_active": "Très actif",
+    "very_active_description": "Exercice intense 6-7 jours/semaine"
+  },
+  "gender": {
+    "male": "Homme",
+    "female": "Femme",
+    "other": "Autre"
+  },
+  "weekly_loss_goal": {
+    "small": "Petit",
+    "medium": "Moyen",
+    "large": "Grand",
+    "xlarge": "Très grand"
+  },
+  "feedback": {
+    "discard_changes": "Annuler les modifications",
+    "discard_changes_description": "Vous avez des modifications non enregistrées. Êtes-vous sûr de vouloir les annuler ?",
+    "discard_changes_confirm": "Annuler",
+    "discard_changes_cancel": "Retour",
+    "oops_something_went_wrong": "Oups ! Quelque chose s'est mal passé.",
+    "error": "Erreur"
+  },
+  "screens": {
+    "goals": {
+      "heading": "Objectifs",
+      "title": "Définissez vos objectifs",
+      "description": "Choisissez l'objectif qui est le plus important pour vous."
+    },
+    "goals_motivation": {
+      "title": "Objectifs",
+      "subtitle": "Votre transformation commence ici !",
+      "description_1": "Vous vous lancez dans un voyage incroyable, et chaque étape compte.",
+      "description_2": "Oui, il y aura des défis, mais vous n'êtes pas seul — nous sommes là pour vous aider avec les outils dont vous avez besoin pour atteindre vos objectifs !",
+      "footer": "P.S. Vous avez déjà fait le plus dur : commencer."
+    },
+    "obstacles": {
+      "title": "Obstacles",
+      "description": "Quels ont été vos obstacles dans le passé ?",
+      "description_2": "Vous pouvez sélectionner autant d'options que vous le souhaitez."
+    },
+    "obstacles_motivation": {
+      "title": "C'est parti !",
+      "subtitle": "Vous n'êtes pas seul cette fois.",
+      "description_1": "Suivre un régime strict n'est pas toujours réaliste, et c'est normal.",
+      "description_2": "Nous avons aidé beaucoup d'autres personnes à surmonter des obstacles similaires, et nous sommes là pour vous aider à faire de même.",
+      "description_3": "Maintenant, dites-nous ce que vous avez essayé dans le passé."
+    },
+    "past_attempts": {
+      "heading": "Tentatives passées",
+      "title": "Qu'avez-vous essayé ?",
+      "subtitle": "Sélectionnez toutes les méthodes que vous avez essayées pour perdre du poids."
+    },
+    "activity_level": {
+      "heading": "Niveau d'activité",
+      "title": "Quel est votre niveau d'activité ?",
+      "subtitle": "Choisissez l'option qui décrit le mieux votre semaine type."
+    },
+    "about_you": {
+      "heading": "À propos de vous",
+      "title": "Parlez-nous de vous",
+      "subtitle": "Cela nous aidera à personnaliser votre plan.",
+      "age": "Âge",
+      "height": "Taille",
+      "gender": "Genre",
+      "current_weight": "Poids actuel",
+      "desired_weight": "Poids désiré"
+    },
+    "weekly_loss_goal": {
+      "title": "Objectif hebdomadaire",
+      "subtitle": "Combien de poids souhaitez-vous perdre ?",
+      "per_week": "par semaine",
+      "recommended": "Recommandé"
+    },
+    "results": {
+      "loading": {
+        "title": "Patientez !",
+        "subtitle": "Nous calculons votre plan personnalisé...",
+        "description": "Cela peut prendre quelques secondes."
+      },
+      "final": {
+        "title": "Félicitations !",
+        "subtitle": "Vous avez terminé l'intégration et votre plan personnalisé est prêt !",
+        "daily_intake": "Apport calorique quotidien",
+        "total_loss": "{{totalLoss}}{{unit}} d'ici le {{date}}",
+        "help_you_lose": "Cela devrait vous aider à perdre",
+        "feature_1": "Perdre du poids à un rythme sain",
+        "feature_2": "Suivre votre poids quotidiennement",
+        "feature_3": "Plus besoin de peser manuellement les aliments",
+        "sources": "Ces résultats sont basés sur les sources suivantes :",
+        "bmr": "BMR"
+      }
+    },
+    "how_it_works": {
+      "scan": {
+        "title": "Scannez vos aliments",
+        "subtitle": "Scannez ou décrivez les aliments que vous mangez pour enregistrer automatiquement vos calories."
+      },
+      "analyze": {
+        "title": "Analysez vos aliments",
+        "subtitle": "Laissez l'IA faire le travail pour vous. Plus besoin de peser vos aliments."
+      },
+      "track": {
+        "title": "Suivez vos progrès",
+        "subtitle": "Ajoutez des aliments à votre progression pour voir comment vous progressez vers vos objectifs."
+      }
+    },
+    "paywall": {
+      "title": "Changez votre vie aujourd'hui",
+      "subtitle": "Débloquez la version illimitée, le suivi des calories sans effort et des résultats plus rapides, propulsés par l'IA."
+    },
+    "home": {
+      "progress": "Votre progression aujourd'hui",
+      "modify_goals": "Modifier les objectifs",
+      "calorie_progress": "calories sur {{maxCalories}}",
+      "from_photo": "Depuis une photo",
+      "from_description": "Depuis une description",
+      "describe_food": "Décrire",
+      "describe_food_placeholder": "Décrivez votre repas...",
+      "today_intake": "Vos analyses d'aujourd'hui",
+      "add_first_intake": "Ajouter votre première ingestion",
+      "from_library": "De la bibliothèque"
+    },
+    "weight_tracker": {
+      "title": "Progression",
+      "no_data": "Aucune donnée à afficher.",
+      "add_weight": "Ajoutez une nouvelle entrée pour commencer",
+      "current_weight": "Poids actuel"
+    },
+    "add_weight": {
+      "title": "Ajouter un poids",
+      "enter_weight": "Entrer le poids",
+      "select_date": "Sélectionner la date"
+    },
+    "settings": {
+      "sources": "Sources",
+      "bmr": "BMR",
+      "isns": "Société Internationale de Nutrition Sportive",
+      "sources_description": "Les informations fournies par cette application ne sont pas destinées à remplacer les conseils, diagnostics ou traitements médicaux professionnels. Consultez toujours votre médecin ou un autre professionnel de santé qualifié pour toute question concernant une condition médicale. Ne négligez jamais les conseils médicaux professionnels et ne tardez pas à les consulter à cause de quelque chose que vous avez lu dans cette application. Vous pouvez trouver plus d'informations dans les sources suivantes :",
+      "review": "Laissez un avis !",
+      "edit_goals": "Modifier les objectifs",
+      "reset_today": "Réinitialiser la progression du jour",
+      "reset_today_description": "Êtes-vous sûr de vouloir réinitialiser la progression d'aujourd'hui ? Cette action ne peut pas être annulée.",
+      "reset_today_confirm": "Réinitialiser",
+      "reset_today_cancel": "Annuler",
+      "reset_today_success": "La progression d'aujourd'hui a été réinitialisée.",
+      "email_us": "Nous contacter",
+      "about_us": "À propos de nous",
+      "privacy_policy": "Politique de confidentialité",
+      "terms_and_conditions": "Conditions générales",
+      "user_license_agreement": "Accord de licence utilisateur",
+      "title": "Paramètres",
+      "unit_system": "Changer le système d'unités",
+      "metric": "Métrique",
+      "imperial": "USA"
+    },
+    "edit_goals": {
+      "title": "Mettre à jour vos objectifs",
+      "save": "Enregistrer les objectifs"
+    },
+    "photo_analysis": {
+      "title": "Analyse photo",
+      "error": "Erreur",
+      "error_description": "Nous n'avons pas pu analyser l'aliment",
+      "invalid_input": "Entrée invalide",
+      "invalid_input_description": "Veuillez entrer un nombre valide.",
+      "unknown_nutrient": "Nutriment inconnu",
+      "add_to_intake": "Ajouter à l'apport",
+      "edit_nutrient": "Modifier {{nutrient}}",
+      "enter_new_nutrient": "Entrer une nouvelle valeur pour {{nutrient}}",
+      "no_alternatives": "Il n'y a pas d'alternatives.",
+      "healthier_alternatives": "Alternatives plus saines",
+      "healthy_score": "Score santé"
+    }
+  }
+}

@@ -1,0 +1,247 @@
+{
+  "common": {
+    "continue": "Continue",
+    "done": "Done",
+    "calories": "calories",
+    "good_morning": "Good Morning",
+    "good_afternoon": "Good Afternoon",
+    "good_evening": "Good Evening",
+    "add": "Add",
+    "delete": "Delete",
+    "Carbs": "Carbs",
+    "Carbohydrates": "Carbohydrates",
+    "Calories": "Calories",
+    "Portion_size": "Portion size",
+    "Protein": "Protein",
+    "Fat": "Fat",
+    "weight": "Weight",
+    "date": "Date",
+    "cancel": "Cancel",
+    "today": "Today"
+  },
+  "timeframes": {
+    "week": "Week",
+    "month": "Month",
+    "year": "Year",
+    "all": "All"
+  },
+  "genre": {
+    "male": "Male",
+    "female": "Female",
+    "other": "Other"
+  },
+  "goal": {
+    "lose_weight": "Lose weight",
+    "gain_weight": "Gain weight",
+    "maintain_weight": "Maintain weight",
+    "improve_health": "Improve health",
+    "build_muscle": "Build muscle",
+    "manage_stress": "Manage stress",
+    "improve_sleep": "Improve sleep",
+    "change_diet": "Change my diet"
+  },
+  "obstacles": {
+    "time": "No time",
+    "hard": "Diet was hard to follow",
+    "food": "I didn't enjoy the food",
+    "support": "I couldn't find support",
+    "motivation": "I couldn't find motivation",
+    "progress": "I didn't see progress",
+    "cravings": "I had cravings",
+    "hunger": "I was hungry",
+    "cost": "It was too expensive",
+    "first_time": "It was my first time",
+    "other": "Other"
+  },
+  "past_attempts": {
+    "calorie_counting": "Calorie counting",
+    "keto_diet": "Keto diet",
+    "intermittent_fasting": "Intermittent fasting",
+    "low_carb_diet": "Low-carb diet",
+    "vegetarian_vegan_diet": "Vegetarian/Vegan diet",
+    "increased_physical_activity": "Increased physical activity",
+    "weight_loss_supplements": "Weight loss supplements",
+    "meal_replacement_shakes": "Meal replacement shakes"
+  },
+  "activity_level": {
+    "sedentary": "Sedentary",
+    "sedentary_description": "Little to no exercise, desk job",
+    "lightly_active": "Lightly active",
+    "lightly_active_description": "Light exercise 1-3 days/week",
+    "moderately_active": "Moderately active",
+    "moderately_active_description": "Moderate exercise 3-5 days/week",
+    "very_active": "Very active",
+    "very_active_description": "Hard exercise 6-7 days/week"
+  },
+  "gender": {
+    "male": "Male",
+    "female": "Female",
+    "other": "Other"
+  },
+  "weekly_loss_goal": {
+    "small": "Small",
+    "medium": "Medium",
+    "large": "Large",
+    "xlarge": "X-Large"
+  },
+  "feedback": {
+    "discard_changes": "Discard Changes",
+    "discard_changes_description": "You have unsaved changes. Are you sure you want to discard them?",
+    "discard_changes_confirm": "Discard",
+    "discard_changes_cancel": "Cancel",
+    "oops_something_went_wrong": "Ooops! Something went wrong.",
+    "error": "Error"
+  },
+  "screens": {
+    "goals": {
+      "heading": "Goals",
+      "title": "Define your goals",
+      "description": "Choose the goal that is most important to you."
+    },
+    "goals_motivation": {
+      "title": "Goals",
+      "subtitle": "Your transformation starts here!",
+      "description_1": "You're embarking on an incredible journey, and every step counts.",
+      "description_2": "Yes, there will be challenges, but you're not doing this alone—we've got your back with the tools you need to help you crush your goals!",
+      "footer": "P.S. You've already done the hardest part: getting started."
+    },
+    "obstacles": {
+      "title": "Obstacles",
+      "description": "What were your obstacles in the past?",
+      "description_2": "You can select as many options as you want."
+    },
+    "obstacles_motivation": {
+      "title": "Let's do this!",
+      "subtitle": "You're not alone this time.",
+      "description_1": "Following a strict diet isn't always realistic, and that's okay.",
+      "description_2": "We've helped many others overcome obstacles just like these, and we're here to help you do the same.",
+      "description_3": "Next, tell us what you've tried in the past."
+    },
+    "past_attempts": {
+      "heading": "Past Attempts",
+      "title": "What have you tried?",
+      "subtitle": "Select all the methods you've tried in the past to lose weight."
+    },
+    "activity_level": {
+      "heading": "Activity Level",
+      "title": "What's your activity level?",
+      "subtitle": "Choose the option that best describes your typical week."
+    },
+    "about_you": {
+      "heading": "About You",
+      "title": "Tell us about yourself",
+      "subtitle": "This will help us personalize your plan.",
+      "age": "Age",
+      "height": "Height",
+      "gender": "Gender",
+      "current_weight": "Current Weight",
+      "desired_weight": "Desired Weight"
+    },
+    "weekly_loss_goal": {
+      "title": "Weekly Goal",
+      "subtitle": "How much weight do you want to lose?",
+      "per_week": "per week",
+      "recommended": "Recommended"
+    },
+    "results": {
+      "loading": {
+        "title": "Hold tight!",
+        "subtitle": "We're calculating your personalized intake plan...",
+        "description": "This can take a few seconds."
+      },
+      "final": {
+        "title": "Congrats!",
+        "subtitle": "You've completed the onboarding process and your personalized plan is ready!",
+        "daily_intake": "Daily calorie intake",
+        "total_loss": "{{totalLoss}}{{unit}} by {{date}}",
+        "help_you_lose": "This should help you lose",
+        "feature_1": "Lose weight at a healthy pace",
+        "feature_2": "Track your weight on a daily basis",
+        "feature_3": "No more weighting food manually",
+        "sources": "These results are based on the following sources:",
+        "bmr": "BMR"
+      }
+    },
+    "how_it_works": {
+      "scan": {
+        "title": "Scan your food",
+        "subtitle": "Scan or describe the food you eat to automatically log your calories."
+      },
+      "analyze": {
+        "title": "Analyze your food",
+        "subtitle": "Let AI do the heavy lifting for you. No more weighing your food."
+      },
+      "track": {
+        "title": "Track your progress",
+        "subtitle": "Add food to your progress to see how you're tracking toward your goals."
+      }
+    },
+    "paywall": {
+      "title": "Change your life today",
+      "subtitle": "Unlock the unlimited version, effortless calorie tracking and faster results, powered by AI."
+    },
+    "home": {
+      "progress": "Your progress today",
+      "modify_goals": "Modify goals",
+      "calorie_progress": "calories of {{maxCalories}}",
+      "from_photo": "From a photo",
+      "from_library": "From the library",
+      "from_description": "From a description",
+      "describe_food": "Describe",
+      "describe_food_placeholder": "Describe your food...",
+      "today_intake": "Today's intake",
+      "add_first_intake": "Add your first intake"
+    },
+    "weight_tracker": {
+      "title": "Progress",
+      "no_data": "No data to display.",
+      "add_weight": "Add a new entry to get started",
+      "current_weight": "Current Weight"
+    },
+    "add_weight": {
+      "title": "Add Weight",
+      "enter_weight": "Enter weight",
+      "select_date": "Select date"
+    },
+    "settings": {
+      "sources": "Sources",
+      "bmr": "BMR",
+      "isns": "International Sport Nutrition Society",
+      "sources_description": "The information provided by this app is not intended to be a substitute for professional medical advice, diagnosis, or treatment. Always seek the advice of your physician or other qualified health provider with any questions you may have regarding a medical condition. Never disregard professional medical advice or delay in seeking it because of something you have read in this app. You can find more information in the following sources:",
+      "review": "Leave a Review!",
+      "edit_goals": "Edit Goals",
+      "reset_today": "Reset Today's Progress",
+      "reset_today_description": "Are you sure you want to reset today's progress? This action cannot be undone.",
+      "reset_today_confirm": "Reset",
+      "reset_today_cancel": "Cancel",
+      "reset_today_success": "Today's progress has been reset.",
+      "email_us": "Email Us",
+      "about_us": "About Us",
+      "privacy_policy": "Privacy Policy",
+      "terms_and_conditions": "Terms and Conditions",
+      "user_license_agreement": "User License Agreement",
+      "title": "Settings",
+      "unit_system": "Toggle Unit System",
+      "metric": "Metric",
+      "imperial": "USA"
+    },
+    "edit_goals": {
+      "title": "Update your goals",
+      "save": "Save Goals"
+    },
+    "photo_analysis": {
+      "title": "Photo Analysis",
+      "error": "Error",
+      "error_description": "We couldn't analyze the food",
+      "invalid_input": "Invalid input",
+      "invalid_input_description": "Please enter a valid number.",
+      "unknown_nutrient": "Unknown Nutrient",
+      "add_to_intake": "Add to intake",
+      "edit_nutrient": "Edit {{nutrient}}",
+      "enter_new_nutrient": "Enter new {{nutrient}} value",
+      "no_alternatives": "There are no alternatives.",
+      "healthier_alternatives": "Healthier Alternatives",
+      "healthy_score": "Healthy Score"
+    }
+  }
+}
